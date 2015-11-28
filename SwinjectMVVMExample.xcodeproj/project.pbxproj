@@ -33,6 +33,55 @@
 		BBE74F9E1C0A21B9005F2683 /* ExampleViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCAF96A1C04925D00F3F68E /* ExampleViewModel.framework */; };
 		BBE74F9F1C0A236E005F2683 /* ExampleView.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCAF98E1C04926C00F3F68E /* ExampleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBE74FA01C0A2396005F2683 /* ExampleViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCAF96C1C04925D00F3F68E /* ExampleViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBE74FA91C0A2969005F2683 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA21C0A28EF005F2683 /* Alamofire.framework */; };
+		BBE74FAA1C0A2969005F2683 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA31C0A28EF005F2683 /* Himotoki.framework */; };
+		BBE74FAB1C0A2969005F2683 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */; };
+		BBE74FAC1C0A2969005F2683 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA71C0A28EF005F2683 /* Result.framework */; };
+		BBE74FAD1C0A29A7005F2683 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */; };
+		BBE74FAE1C0A29AB005F2683 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA71C0A28EF005F2683 /* Result.framework */; };
+		BBE74FAF1C0A29B6005F2683 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */; };
+		BBE74FB01C0A29B6005F2683 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA71C0A28EF005F2683 /* Result.framework */; };
+		BBE74FB11C0A29CB005F2683 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA81C0A28EF005F2683 /* Swinject.framework */; };
+		BBE74FB21C0A29FF005F2683 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA41C0A28EF005F2683 /* Nimble.framework */; };
+		BBE74FB31C0A29FF005F2683 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA51C0A28EF005F2683 /* Quick.framework */; };
+		BBE74FB41C0A29FF005F2683 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */; };
+		BBE74FB51C0A29FF005F2683 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA71C0A28EF005F2683 /* Result.framework */; };
+		BBE74FB61C0A2A09005F2683 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA41C0A28EF005F2683 /* Nimble.framework */; };
+		BBE74FB71C0A2A09005F2683 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA51C0A28EF005F2683 /* Quick.framework */; };
+		BBE74FB81C0A2A09005F2683 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */; };
+		BBE74FB91C0A2A09005F2683 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA71C0A28EF005F2683 /* Result.framework */; };
+		BBE74FBA1C0A2A12005F2683 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA41C0A28EF005F2683 /* Nimble.framework */; };
+		BBE74FBB1C0A2A12005F2683 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA51C0A28EF005F2683 /* Quick.framework */; };
+		BBE74FBC1C0A2A12005F2683 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */; };
+		BBE74FBD1C0A2A12005F2683 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA71C0A28EF005F2683 /* Result.framework */; };
+		BBE74FBE1C0A2A4A005F2683 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA41C0A28EF005F2683 /* Nimble.framework */; };
+		BBE74FBF1C0A2A4A005F2683 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA51C0A28EF005F2683 /* Quick.framework */; };
+		BBE74FC01C0A2A4A005F2683 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA81C0A28EF005F2683 /* Swinject.framework */; };
+		BBE74FC21C0A2B21005F2683 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA21C0A28EF005F2683 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FC31C0A2B21005F2683 /* Himotoki.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA31C0A28EF005F2683 /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FC41C0A2B21005F2683 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA41C0A28EF005F2683 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FC51C0A2B21005F2683 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA51C0A28EF005F2683 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FC61C0A2B21005F2683 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FC71C0A2B22005F2683 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA71C0A28EF005F2683 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FC91C0A2B60005F2683 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA21C0A28EF005F2683 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FCA1C0A2B60005F2683 /* Himotoki.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA31C0A28EF005F2683 /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FCB1C0A2B61005F2683 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA41C0A28EF005F2683 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FCC1C0A2B61005F2683 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA51C0A28EF005F2683 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FCD1C0A2B61005F2683 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FCE1C0A2B61005F2683 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA71C0A28EF005F2683 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FD01C0A2B75005F2683 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA21C0A28EF005F2683 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FD11C0A2B76005F2683 /* Himotoki.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA31C0A28EF005F2683 /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FD21C0A2B76005F2683 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA41C0A28EF005F2683 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FD31C0A2B76005F2683 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA51C0A28EF005F2683 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FD41C0A2B76005F2683 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FD51C0A2B76005F2683 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA71C0A28EF005F2683 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FD71C0A2BA6005F2683 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA41C0A28EF005F2683 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FD81C0A2BA7005F2683 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BBE74FA51C0A28EF005F2683 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BBE74FE21C0A2DB5005F2683 /* Alamofire.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = BBE74FDC1C0A2DB5005F2683 /* Alamofire.framework.dSYM */; };
+		BBE74FE31C0A2DB5005F2683 /* Himotoki.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = BBE74FDD1C0A2DB5005F2683 /* Himotoki.framework.dSYM */; };
+		BBE74FE41C0A2DB5005F2683 /* ReactiveCocoa.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = BBE74FDE1C0A2DB5005F2683 /* ReactiveCocoa.framework.dSYM */; };
+		BBE74FE51C0A2DB5005F2683 /* Result.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = BBE74FDF1C0A2DB5005F2683 /* Result.framework.dSYM */; };
+		BBE74FE61C0A2DB5005F2683 /* Swinject.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = BBE74FE01C0A2DB5005F2683 /* Swinject.framework.dSYM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +164,81 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBE74FC11C0A2AC6005F2683 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BBE74FC21C0A2B21005F2683 /* Alamofire.framework in Copy Frameworks */,
+				BBE74FC31C0A2B21005F2683 /* Himotoki.framework in Copy Frameworks */,
+				BBE74FC41C0A2B21005F2683 /* Nimble.framework in Copy Frameworks */,
+				BBE74FC51C0A2B21005F2683 /* Quick.framework in Copy Frameworks */,
+				BBE74FC61C0A2B21005F2683 /* ReactiveCocoa.framework in Copy Frameworks */,
+				BBE74FC71C0A2B22005F2683 /* Result.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE74FC81C0A2B4D005F2683 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BBE74FC91C0A2B60005F2683 /* Alamofire.framework in Copy Frameworks */,
+				BBE74FCA1C0A2B60005F2683 /* Himotoki.framework in Copy Frameworks */,
+				BBE74FCB1C0A2B61005F2683 /* Nimble.framework in Copy Frameworks */,
+				BBE74FCC1C0A2B61005F2683 /* Quick.framework in Copy Frameworks */,
+				BBE74FCD1C0A2B61005F2683 /* ReactiveCocoa.framework in Copy Frameworks */,
+				BBE74FCE1C0A2B61005F2683 /* Result.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE74FCF1C0A2B67005F2683 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BBE74FD01C0A2B75005F2683 /* Alamofire.framework in Copy Frameworks */,
+				BBE74FD11C0A2B76005F2683 /* Himotoki.framework in Copy Frameworks */,
+				BBE74FD21C0A2B76005F2683 /* Nimble.framework in Copy Frameworks */,
+				BBE74FD31C0A2B76005F2683 /* Quick.framework in Copy Frameworks */,
+				BBE74FD41C0A2B76005F2683 /* ReactiveCocoa.framework in Copy Frameworks */,
+				BBE74FD51C0A2B76005F2683 /* Result.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE74FD61C0A2B88005F2683 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BBE74FD71C0A2BA6005F2683 /* Nimble.framework in Copy Frameworks */,
+				BBE74FD81C0A2BA7005F2683 /* Quick.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE74FDA1C0A2D5B005F2683 /* Copy dSYMs */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				BBE74FE21C0A2DB5005F2683 /* Alamofire.framework.dSYM in Copy dSYMs */,
+				BBE74FE31C0A2DB5005F2683 /* Himotoki.framework.dSYM in Copy dSYMs */,
+				BBE74FE41C0A2DB5005F2683 /* ReactiveCocoa.framework.dSYM in Copy dSYMs */,
+				BBE74FE51C0A2DB5005F2683 /* Result.framework.dSYM in Copy dSYMs */,
+				BBE74FE61C0A2DB5005F2683 /* Swinject.framework.dSYM in Copy dSYMs */,
+			);
+			name = "Copy dSYMs";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -146,6 +270,18 @@
 		BBCAF9951C04926C00F3F68E /* ExampleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCAF99C1C04926C00F3F68E /* ExampleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewTests.swift; sourceTree = "<group>"; };
 		BBCAF99E1C04926C00F3F68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE74FA21C0A28EF005F2683 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		BBE74FA31C0A28EF005F2683 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
+		BBE74FA41C0A28EF005F2683 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		BBE74FA51C0A28EF005F2683 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		BBE74FA71C0A28EF005F2683 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		BBE74FA81C0A28EF005F2683 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		BBE74FDC1C0A2DB5005F2683 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		BBE74FDD1C0A2DB5005F2683 /* Himotoki.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Himotoki.framework.dSYM; path = Carthage/Build/iOS/Himotoki.framework.dSYM; sourceTree = "<group>"; };
+		BBE74FDE1C0A2DB5005F2683 /* ReactiveCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReactiveCocoa.framework.dSYM; path = Carthage/Build/iOS/ReactiveCocoa.framework.dSYM; sourceTree = "<group>"; };
+		BBE74FDF1C0A2DB5005F2683 /* Result.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Result.framework.dSYM; path = Carthage/Build/iOS/Result.framework.dSYM; sourceTree = "<group>"; };
+		BBE74FE01C0A2DB5005F2683 /* Swinject.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Swinject.framework.dSYM; path = Carthage/Build/iOS/Swinject.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +292,7 @@
 				BBCAF97F1C04925D00F3F68E /* ExampleViewModel.framework in Frameworks */,
 				BBCAF9A11C04926C00F3F68E /* ExampleView.framework in Frameworks */,
 				BBCAF95B1C04907700F3F68E /* ExampleModel.framework in Frameworks */,
+				BBE74FB11C0A29CB005F2683 /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +303,9 @@
 				BBE74F9C1C0A21B9005F2683 /* ExampleModel.framework in Frameworks */,
 				BBE74F9D1C0A21B9005F2683 /* ExampleView.framework in Frameworks */,
 				BBE74F9E1C0A21B9005F2683 /* ExampleViewModel.framework in Frameworks */,
+				BBE74FBE1C0A2A4A005F2683 /* Nimble.framework in Frameworks */,
+				BBE74FBF1C0A2A4A005F2683 /* Quick.framework in Frameworks */,
+				BBE74FC01C0A2A4A005F2683 /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +313,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE74FA91C0A2969005F2683 /* Alamofire.framework in Frameworks */,
+				BBE74FAA1C0A2969005F2683 /* Himotoki.framework in Frameworks */,
+				BBE74FAB1C0A2969005F2683 /* ReactiveCocoa.framework in Frameworks */,
+				BBE74FAC1C0A2969005F2683 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBCAF9501C04907700F3F68E /* ExampleModel.framework in Frameworks */,
+				BBE74FB21C0A29FF005F2683 /* Nimble.framework in Frameworks */,
+				BBE74FB31C0A29FF005F2683 /* Quick.framework in Frameworks */,
+				BBE74FB41C0A29FF005F2683 /* ReactiveCocoa.framework in Frameworks */,
+				BBE74FB51C0A29FF005F2683 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +336,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE74FAD1C0A29A7005F2683 /* ReactiveCocoa.framework in Frameworks */,
+				BBE74FAE1C0A29AB005F2683 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +347,10 @@
 			files = (
 				BBE74F981C0A2108005F2683 /* ExampleModel.framework in Frameworks */,
 				BBCAF9741C04925D00F3F68E /* ExampleViewModel.framework in Frameworks */,
+				BBE74FB61C0A2A09005F2683 /* Nimble.framework in Frameworks */,
+				BBE74FB71C0A2A09005F2683 /* Quick.framework in Frameworks */,
+				BBE74FB81C0A2A09005F2683 /* ReactiveCocoa.framework in Frameworks */,
+				BBE74FB91C0A2A09005F2683 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +358,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE74FAF1C0A29B6005F2683 /* ReactiveCocoa.framework in Frameworks */,
+				BBE74FB01C0A29B6005F2683 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +369,10 @@
 			files = (
 				BBE74F9B1C0A2132005F2683 /* ExampleViewModel.framework in Frameworks */,
 				BBCAF9961C04926C00F3F68E /* ExampleView.framework in Frameworks */,
+				BBE74FBA1C0A2A12005F2683 /* Nimble.framework in Frameworks */,
+				BBE74FBB1C0A2A12005F2683 /* Quick.framework in Frameworks */,
+				BBE74FBC1C0A2A12005F2683 /* ReactiveCocoa.framework in Frameworks */,
+				BBE74FBD1C0A2A12005F2683 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,10 +383,12 @@
 			isa = PBXGroup;
 			children = (
 				BBCAF9471C04907700F3F68E /* ExampleModel */,
-				BBCAF98D1C04926C00F3F68E /* ExampleView */,
 				BBCAF96B1C04925D00F3F68E /* ExampleViewModel */,
+				BBCAF98D1C04926C00F3F68E /* ExampleView */,
 				BBCAF9041C048EB500F3F68E /* SwinjectMVVMExample */,
 				BBCAF9641C04922B00F3F68E /* Tests */,
+				BBE74FA11C0A26B5005F2683 /* Frameworks */,
+				BBE74FE71C0A2DD1005F2683 /* dSYMs */,
 				BBCAF9031C048EB500F3F68E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -333,6 +495,32 @@
 			path = ExampleViewTests;
 			sourceTree = "<group>";
 		};
+		BBE74FA11C0A26B5005F2683 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBE74FA21C0A28EF005F2683 /* Alamofire.framework */,
+				BBE74FA31C0A28EF005F2683 /* Himotoki.framework */,
+				BBE74FA41C0A28EF005F2683 /* Nimble.framework */,
+				BBE74FA51C0A28EF005F2683 /* Quick.framework */,
+				BBE74FA61C0A28EF005F2683 /* ReactiveCocoa.framework */,
+				BBE74FA71C0A28EF005F2683 /* Result.framework */,
+				BBE74FA81C0A28EF005F2683 /* Swinject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBE74FE71C0A2DD1005F2683 /* dSYMs */ = {
+			isa = PBXGroup;
+			children = (
+				BBE74FDC1C0A2DB5005F2683 /* Alamofire.framework.dSYM */,
+				BBE74FDD1C0A2DB5005F2683 /* Himotoki.framework.dSYM */,
+				BBE74FDE1C0A2DB5005F2683 /* ReactiveCocoa.framework.dSYM */,
+				BBE74FDF1C0A2DB5005F2683 /* Result.framework.dSYM */,
+				BBE74FE01C0A2DB5005F2683 /* Swinject.framework.dSYM */,
+			);
+			name = dSYMs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -371,6 +559,8 @@
 				BBCAF8FF1C048EB500F3F68E /* Frameworks */,
 				BBCAF9001C048EB500F3F68E /* Resources */,
 				BBCAF9621C04907700F3F68E /* Embed Frameworks */,
+				BBE74FD91C0A2C86005F2683 /* Run Script for Frameworks by Carthage */,
+				BBE74FDA1C0A2D5B005F2683 /* Copy dSYMs */,
 			);
 			buildRules = (
 			);
@@ -391,6 +581,7 @@
 				BBCAF9121C048EB500F3F68E /* Sources */,
 				BBCAF9131C048EB500F3F68E /* Frameworks */,
 				BBCAF9141C048EB500F3F68E /* Resources */,
+				BBE74FD61C0A2B88005F2683 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -427,6 +618,7 @@
 				BBCAF94B1C04907700F3F68E /* Sources */,
 				BBCAF94C1C04907700F3F68E /* Frameworks */,
 				BBCAF94D1C04907700F3F68E /* Resources */,
+				BBE74FC11C0A2AC6005F2683 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -464,6 +656,7 @@
 				BBCAF96F1C04925D00F3F68E /* Sources */,
 				BBCAF9701C04925D00F3F68E /* Frameworks */,
 				BBCAF9711C04925D00F3F68E /* Resources */,
+				BBE74FC81C0A2B4D005F2683 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -501,6 +694,7 @@
 				BBCAF9911C04926C00F3F68E /* Sources */,
 				BBCAF9921C04926C00F3F68E /* Frameworks */,
 				BBCAF9931C04926C00F3F68E /* Resources */,
+				BBE74FCF1C0A2B67005F2683 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -635,6 +829,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BBE74FD91C0A2C86005F2683 /* Run Script for Frameworks by Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Himotoki.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
+			);
+			name = "Run Script for Frameworks by Carthage";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BBCAF8FE1C048EB500F3F68E /* Sources */ = {
@@ -854,6 +1070,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwinjectMVVMExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.SwinjectMVVMExample;
@@ -865,6 +1085,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwinjectMVVMExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.SwinjectMVVMExample;
@@ -876,6 +1100,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwinjectMVVMExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.SwinjectMVVMExampleTests;
@@ -888,6 +1116,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwinjectMVVMExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.SwinjectMVVMExampleTests;
@@ -904,6 +1136,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleModel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -924,6 +1160,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleModel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -939,6 +1179,10 @@
 		BBCAF95F1C04907700F3F68E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleModelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.ExampleModelTests;
@@ -949,6 +1193,10 @@
 		BBCAF9601C04907700F3F68E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleModelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.ExampleModelTests;
@@ -964,6 +1212,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleViewModel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -984,6 +1236,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleViewModel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -999,6 +1255,10 @@
 		BBCAF9851C04925D00F3F68E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleViewModelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.ExampleViewModelTests;
@@ -1009,6 +1269,10 @@
 		BBCAF9861C04925D00F3F68E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleViewModelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.ExampleViewModelTests;
@@ -1024,6 +1288,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1044,6 +1312,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1059,6 +1331,10 @@
 		BBCAF9A71C04926D00F3F68E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.ExampleViewTests;
@@ -1069,6 +1345,10 @@
 		BBCAF9A81C04926D00F3F68E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.ExampleViewTests;
