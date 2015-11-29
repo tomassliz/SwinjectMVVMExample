@@ -15,7 +15,7 @@
 		BBCAF91B1C048EB500F3F68E /* SwinjectMVVMExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCAF91A1C048EB500F3F68E /* SwinjectMVVMExampleTests.swift */; };
 		BBCAF9491C04907700F3F68E /* ExampleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCAF9481C04907700F3F68E /* ExampleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBCAF9501C04907700F3F68E /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCAF9461C04907700F3F68E /* ExampleModel.framework */; };
-		BBCAF9571C04907700F3F68E /* ExampleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCAF9561C04907700F3F68E /* ExampleModelTests.swift */; };
+		BBCAF9571C04907700F3F68E /* ImageEntitySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCAF9561C04907700F3F68E /* ImageEntitySpec.swift */; };
 		BBCAF95B1C04907700F3F68E /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCAF9461C04907700F3F68E /* ExampleModel.framework */; };
 		BBCAF95C1C04907700F3F68E /* ExampleModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCAF9461C04907700F3F68E /* ExampleModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BBCAF9741C04925D00F3F68E /* ExampleViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCAF96A1C04925D00F3F68E /* ExampleViewModel.framework */; };
@@ -82,6 +82,10 @@
 		BBE74FE41C0A2DB5005F2683 /* ReactiveCocoa.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = BBE74FDE1C0A2DB5005F2683 /* ReactiveCocoa.framework.dSYM */; };
 		BBE74FE51C0A2DB5005F2683 /* Result.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = BBE74FDF1C0A2DB5005F2683 /* Result.framework.dSYM */; };
 		BBE74FE61C0A2DB5005F2683 /* Swinject.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = BBE74FE01C0A2DB5005F2683 /* Swinject.framework.dSYM */; };
+		BBE74FE91C0A8F3F005F2683 /* ImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE74FE81C0A8F3F005F2683 /* ImageEntity.swift */; };
+		BBE74FEB1C0B1771005F2683 /* ResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE74FEA1C0B1771005F2683 /* ResponseEntity.swift */; };
+		BBE74FED1C0B19E5005F2683 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE74FEC1C0B19E5005F2683 /* Dummy.swift */; };
+		BBE74FEF1C0B206D005F2683 /* ResponseEntitySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE74FEE1C0B206D005F2683 /* ResponseEntitySpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,7 +260,7 @@
 		BBCAF9481C04907700F3F68E /* ExampleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleModel.h; sourceTree = "<group>"; };
 		BBCAF94A1C04907700F3F68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBCAF94F1C04907700F3F68E /* ExampleModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBCAF9561C04907700F3F68E /* ExampleModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModelTests.swift; sourceTree = "<group>"; };
+		BBCAF9561C04907700F3F68E /* ImageEntitySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEntitySpec.swift; sourceTree = "<group>"; };
 		BBCAF9581C04907700F3F68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBCAF96A1C04925D00F3F68E /* ExampleViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCAF96C1C04925D00F3F68E /* ExampleViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewModel.h; sourceTree = "<group>"; };
@@ -282,6 +286,10 @@
 		BBE74FDE1C0A2DB5005F2683 /* ReactiveCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReactiveCocoa.framework.dSYM; path = Carthage/Build/iOS/ReactiveCocoa.framework.dSYM; sourceTree = "<group>"; };
 		BBE74FDF1C0A2DB5005F2683 /* Result.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Result.framework.dSYM; path = Carthage/Build/iOS/Result.framework.dSYM; sourceTree = "<group>"; };
 		BBE74FE01C0A2DB5005F2683 /* Swinject.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Swinject.framework.dSYM; path = Carthage/Build/iOS/Swinject.framework.dSYM; sourceTree = "<group>"; };
+		BBE74FE81C0A8F3F005F2683 /* ImageEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEntity.swift; sourceTree = "<group>"; };
+		BBE74FEA1C0B1771005F2683 /* ResponseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseEntity.swift; sourceTree = "<group>"; };
+		BBE74FEC1C0B19E5005F2683 /* Dummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		BBE74FEE1C0B206D005F2683 /* ResponseEntitySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseEntitySpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,12 +419,12 @@
 		BBCAF9041C048EB500F3F68E /* SwinjectMVVMExample */ = {
 			isa = PBXGroup;
 			children = (
+				BBCAF9111C048EB500F3F68E /* Info.plist */,
 				BBCAF9051C048EB500F3F68E /* AppDelegate.swift */,
 				BBCAF9071C048EB500F3F68E /* ViewController.swift */,
-				BBCAF9091C048EB500F3F68E /* Main.storyboard */,
 				BBCAF90C1C048EB500F3F68E /* Assets.xcassets */,
 				BBCAF90E1C048EB500F3F68E /* LaunchScreen.storyboard */,
-				BBCAF9111C048EB500F3F68E /* Info.plist */,
+				BBCAF9091C048EB500F3F68E /* Main.storyboard */,
 			);
 			path = SwinjectMVVMExample;
 			sourceTree = "<group>";
@@ -435,6 +443,8 @@
 			children = (
 				BBCAF9481C04907700F3F68E /* ExampleModel.h */,
 				BBCAF94A1C04907700F3F68E /* Info.plist */,
+				BBE74FE81C0A8F3F005F2683 /* ImageEntity.swift */,
+				BBE74FEA1C0B1771005F2683 /* ResponseEntity.swift */,
 			);
 			path = ExampleModel;
 			sourceTree = "<group>";
@@ -442,8 +452,10 @@
 		BBCAF9551C04907700F3F68E /* ExampleModelTests */ = {
 			isa = PBXGroup;
 			children = (
-				BBCAF9561C04907700F3F68E /* ExampleModelTests.swift */,
 				BBCAF9581C04907700F3F68E /* Info.plist */,
+				BBE74FEC1C0B19E5005F2683 /* Dummy.swift */,
+				BBCAF9561C04907700F3F68E /* ImageEntitySpec.swift */,
+				BBE74FEE1C0B206D005F2683 /* ResponseEntitySpec.swift */,
 			);
 			path = ExampleModelTests;
 			sourceTree = "<group>";
@@ -471,8 +483,8 @@
 		BBCAF9791C04925D00F3F68E /* ExampleViewModelTests */ = {
 			isa = PBXGroup;
 			children = (
-				BBCAF97A1C04925D00F3F68E /* ExampleViewModelTests.swift */,
 				BBCAF97C1C04925D00F3F68E /* Info.plist */,
+				BBCAF97A1C04925D00F3F68E /* ExampleViewModelTests.swift */,
 			);
 			path = ExampleViewModelTests;
 			sourceTree = "<group>";
@@ -874,6 +886,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE74FE91C0A8F3F005F2683 /* ImageEntity.swift in Sources */,
+				BBE74FEB1C0B1771005F2683 /* ResponseEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,7 +895,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBCAF9571C04907700F3F68E /* ExampleModelTests.swift in Sources */,
+				BBE74FED1C0B19E5005F2683 /* Dummy.swift in Sources */,
+				BBCAF9571C04907700F3F68E /* ImageEntitySpec.swift in Sources */,
+				BBE74FEF1C0B206D005F2683 /* ResponseEntitySpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1070,6 +1086,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1085,6 +1102,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1131,6 +1149,7 @@
 		BBCAF95D1C04907700F3F68E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1146,6 +1165,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.ExampleModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1155,6 +1175,7 @@
 		BBCAF95E1C04907700F3F68E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
