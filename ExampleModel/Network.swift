@@ -12,6 +12,8 @@ import ReactiveCocoa
 public final class Network: Networking {
     private let queue = dispatch_queue_create("SwinjectMVVMExample.ExampleModel.Network.Queue", DISPATCH_QUEUE_SERIAL)
     
+    public init() { }
+    
     public func requestJSON(url: String, parameters: [String : AnyObject]?) -> SignalProducer<AnyObject, NetworkError> {
         return SignalProducer { observer, disposable in
             let serializer = Alamofire.Request.JSONResponseSerializer()

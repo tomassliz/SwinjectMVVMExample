@@ -7,15 +7,44 @@
 //
 
 import UIKit
+import Swinject
+import ExampleModel
+import ExampleViewModel
+import ExampleView
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
+    let container = Container() { container in
+        // Models
+        container.register(Networking.self) { _ in
+            Network()
+        }
+        container.register(ImageSearching.self) { r in
+            ImageSearch(network: r.resolve(Networking.self)!)
+        }
+        
+        // ViewModels
+        container.register(ImageSearchTableViewModeling.self) { r in
+            ImageSearchTableViewModel(imageSearch: r.resolve(ImageSearching.self)!)
+        }
+        
+        // View
+        container.registerForStoryboard(ImageSearchTableViewController.self) { r, c in
+            c.viewModel = r.resolve(ImageSearchTableViewModeling.self)!
+        }
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        let window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window.backgroundColor = UIColor.whiteColor()
+        window.makeKeyAndVisible()
+        self.window = window
+        
+        let bundle = NSBundle(forClass: ImageSearchTableViewController.self)
+        let storyboard = SwinjectStoryboard.create(name: "Main", bundle: bundle, container: container)
+        window.rootViewController = storyboard.instantiateInitialViewController()
+        
         return true
     }
 
@@ -40,7 +69,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
-

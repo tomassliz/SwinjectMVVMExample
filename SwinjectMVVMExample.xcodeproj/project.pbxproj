@@ -13,12 +13,17 @@
 		BB24AA111C0BD37B003F3F33 /* ImageSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24AA101C0BD37B003F3F33 /* ImageSearching.swift */; };
 		BB24AA131C0BD3DD003F3F33 /* ImageSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24AA121C0BD3DD003F3F33 /* ImageSearch.swift */; };
 		BB24AA151C0BD6E4003F3F33 /* ImageSearchSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24AA141C0BD6E4003F3F33 /* ImageSearchSpec.swift */; };
+		BB276B401C10402C0058A052 /* ImageSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB276B3F1C10402C0058A052 /* ImageSearchTableViewController.swift */; };
+		BB276B421C10474B0058A052 /* ImageSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB276B411C10474B0058A052 /* ImageSearchTableViewCell.swift */; };
+		BB276B441C10570C0058A052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB276B431C10570C0058A052 /* Main.storyboard */; };
+		BB276B461C105A5E0058A052 /* ImageSearchTableViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB276B451C105A5E0058A052 /* ImageSearchTableViewModeling.swift */; };
+		BB276B481C105E020058A052 /* ImageSearchTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB276B471C105E020058A052 /* ImageSearchTableViewModel.swift */; };
+		BB276B4A1C105EAE0058A052 /* ImageSearchTableViewCellModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB276B491C105EAE0058A052 /* ImageSearchTableViewCellModeling.swift */; };
+		BB276B4C1C105ED80058A052 /* ImageSearchTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB276B4B1C105ED80058A052 /* ImageSearchTableViewCellModel.swift */; };
+		BB276B4E1C10776D0058A052 /* AppDelegateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB276B4D1C10776D0058A052 /* AppDelegateSpec.swift */; };
 		BBCAF9061C048EB500F3F68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCAF9051C048EB500F3F68E /* AppDelegate.swift */; };
-		BBCAF9081C048EB500F3F68E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCAF9071C048EB500F3F68E /* ViewController.swift */; };
-		BBCAF90B1C048EB500F3F68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCAF9091C048EB500F3F68E /* Main.storyboard */; };
 		BBCAF90D1C048EB500F3F68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCAF90C1C048EB500F3F68E /* Assets.xcassets */; };
 		BBCAF9101C048EB500F3F68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCAF90E1C048EB500F3F68E /* LaunchScreen.storyboard */; };
-		BBCAF91B1C048EB500F3F68E /* SwinjectMVVMExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCAF91A1C048EB500F3F68E /* SwinjectMVVMExampleTests.swift */; };
 		BBCAF9491C04907700F3F68E /* ExampleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCAF9481C04907700F3F68E /* ExampleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBCAF9501C04907700F3F68E /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCAF9461C04907700F3F68E /* ExampleModel.framework */; };
 		BBCAF9571C04907700F3F68E /* ImageEntitySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCAF9561C04907700F3F68E /* ImageEntitySpec.swift */; };
@@ -260,15 +265,20 @@
 		BB24AA101C0BD37B003F3F33 /* ImageSearching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearching.swift; sourceTree = "<group>"; };
 		BB24AA121C0BD3DD003F3F33 /* ImageSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearch.swift; sourceTree = "<group>"; };
 		BB24AA141C0BD6E4003F3F33 /* ImageSearchSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchSpec.swift; sourceTree = "<group>"; };
+		BB276B3F1C10402C0058A052 /* ImageSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewController.swift; sourceTree = "<group>"; };
+		BB276B411C10474B0058A052 /* ImageSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCell.swift; sourceTree = "<group>"; };
+		BB276B431C10570C0058A052 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BB276B451C105A5E0058A052 /* ImageSearchTableViewModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewModeling.swift; sourceTree = "<group>"; };
+		BB276B471C105E020058A052 /* ImageSearchTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewModel.swift; sourceTree = "<group>"; };
+		BB276B491C105EAE0058A052 /* ImageSearchTableViewCellModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCellModeling.swift; sourceTree = "<group>"; };
+		BB276B4B1C105ED80058A052 /* ImageSearchTableViewCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCellModel.swift; sourceTree = "<group>"; };
+		BB276B4D1C10776D0058A052 /* AppDelegateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateSpec.swift; sourceTree = "<group>"; };
 		BBCAF9021C048EB500F3F68E /* SwinjectMVVMExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwinjectMVVMExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCAF9051C048EB500F3F68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BBCAF9071C048EB500F3F68E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BBCAF90A1C048EB500F3F68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBCAF90C1C048EB500F3F68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBCAF90F1C048EB500F3F68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBCAF9111C048EB500F3F68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBCAF9161C048EB500F3F68E /* SwinjectMVVMExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinjectMVVMExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBCAF91A1C048EB500F3F68E /* SwinjectMVVMExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectMVVMExampleTests.swift; sourceTree = "<group>"; };
 		BBCAF91C1C048EB500F3F68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBCAF9461C04907700F3F68E /* ExampleModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCAF9481C04907700F3F68E /* ExampleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleModel.h; sourceTree = "<group>"; };
@@ -437,10 +447,8 @@
 			children = (
 				BBCAF9111C048EB500F3F68E /* Info.plist */,
 				BBCAF9051C048EB500F3F68E /* AppDelegate.swift */,
-				BBCAF9071C048EB500F3F68E /* ViewController.swift */,
 				BBCAF90C1C048EB500F3F68E /* Assets.xcassets */,
 				BBCAF90E1C048EB500F3F68E /* LaunchScreen.storyboard */,
-				BBCAF9091C048EB500F3F68E /* Main.storyboard */,
 			);
 			path = SwinjectMVVMExample;
 			sourceTree = "<group>";
@@ -448,8 +456,8 @@
 		BBCAF9191C048EB500F3F68E /* SwinjectMVVMExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				BBCAF91A1C048EB500F3F68E /* SwinjectMVVMExampleTests.swift */,
 				BBCAF91C1C048EB500F3F68E /* Info.plist */,
+				BB276B4D1C10776D0058A052 /* AppDelegateSpec.swift */,
 			);
 			path = SwinjectMVVMExampleTests;
 			sourceTree = "<group>";
@@ -500,6 +508,10 @@
 			children = (
 				BBCAF96C1C04925D00F3F68E /* ExampleViewModel.h */,
 				BBCAF96E1C04925D00F3F68E /* Info.plist */,
+				BB276B4B1C105ED80058A052 /* ImageSearchTableViewCellModel.swift */,
+				BB276B491C105EAE0058A052 /* ImageSearchTableViewCellModeling.swift */,
+				BB276B471C105E020058A052 /* ImageSearchTableViewModel.swift */,
+				BB276B451C105A5E0058A052 /* ImageSearchTableViewModeling.swift */,
 			);
 			path = ExampleViewModel;
 			sourceTree = "<group>";
@@ -518,6 +530,9 @@
 			children = (
 				BBCAF98E1C04926C00F3F68E /* ExampleView.h */,
 				BBCAF9901C04926C00F3F68E /* Info.plist */,
+				BB276B431C10570C0058A052 /* Main.storyboard */,
+				BB276B411C10474B0058A052 /* ImageSearchTableViewCell.swift */,
+				BB276B3F1C10402C0058A052 /* ImageSearchTableViewController.swift */,
 			);
 			path = ExampleView;
 			sourceTree = "<group>";
@@ -811,7 +826,6 @@
 			files = (
 				BBCAF9101C048EB500F3F68E /* LaunchScreen.storyboard in Resources */,
 				BBCAF90D1C048EB500F3F68E /* Assets.xcassets in Resources */,
-				BBCAF90B1C048EB500F3F68E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -854,6 +868,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB276B441C10570C0058A052 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -893,7 +908,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBCAF9081C048EB500F3F68E /* ViewController.swift in Sources */,
 				BBCAF9061C048EB500F3F68E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -902,7 +916,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBCAF91B1C048EB500F3F68E /* SwinjectMVVMExampleTests.swift in Sources */,
+				BB276B4E1C10776D0058A052 /* AppDelegateSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -937,6 +951,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB276B461C105A5E0058A052 /* ImageSearchTableViewModeling.swift in Sources */,
+				BB276B481C105E020058A052 /* ImageSearchTableViewModel.swift in Sources */,
+				BB276B4A1C105EAE0058A052 /* ImageSearchTableViewCellModeling.swift in Sources */,
+				BB276B4C1C105ED80058A052 /* ImageSearchTableViewCellModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -952,6 +970,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB276B401C10402C0058A052 /* ImageSearchTableViewController.swift in Sources */,
+				BB276B421C10474B0058A052 /* ImageSearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1014,14 +1034,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BBCAF9091C048EB500F3F68E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBCAF90A1C048EB500F3F68E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BBCAF90E1C048EB500F3F68E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1150,6 +1162,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1158,6 +1171,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.SwinjectMVVMExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwinjectMVVMExample.app/SwinjectMVVMExample";
 			};
 			name = Debug;
@@ -1166,6 +1180,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1260,6 +1275,7 @@
 		BBCAF9821C04925D00F3F68E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1275,6 +1291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.ExampleViewModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1284,6 +1301,7 @@
 		BBCAF9831C04925D00F3F68E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1336,6 +1354,7 @@
 		BBCAF9A41C04926D00F3F68E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1351,6 +1370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cz.tomassliz.ExampleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1360,6 +1380,7 @@
 		BBCAF9A51C04926D00F3F68E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
