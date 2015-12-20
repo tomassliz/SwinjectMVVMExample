@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode7.2
+before_install:
+  - brew update
+  - brew install carthage
+  - carthage bootstrap --platform ios
+script:
+  - xcodebuild test -scheme SwinjectMVVMExample -destination 'platform=iOS Simulator,name=iPhone 6s'
+  - xcodebuild build -scheme SwinjectMVVMExample CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
